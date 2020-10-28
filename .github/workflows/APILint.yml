@@ -1,6 +1,9 @@
 name: API linting
 
-on: [pull_request]
+on:
+  pull_request:
+    path:
+      - 'api/**'
 
 jobs:
   build:
